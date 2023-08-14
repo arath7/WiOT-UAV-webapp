@@ -1,4 +1,4 @@
-# Drone Control Website 
+# UAV Control Website 
 
 How to run:
 Scripts themselves for controlling the drone are in Scripts directory
