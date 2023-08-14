@@ -78,35 +78,35 @@
   <div id="main">
   <h1>Status</h1>
 
-  <StatusButtons><buttonArm> <button class="button" onclick="location.href = 'indexFINAL.php?command=arm'">Arming</button></buttonArm>
-  <buttonDisarm><button class="button" onclick="location.href = 'indexFINAL.php?command=disarm'">Disarming</button></buttonDisarm></StatusButtons>
+  <StatusButtons><buttonArm> <button class="button" onclick="location.href = 'index.php?command=arm'">Arming</button></buttonArm>
+  <buttonDisarm><button class="button" onclick="location.href = 'index.php?command=disarm'">Disarming</button></buttonDisarm></StatusButtons>
 
 
 
 
 
   <h2>Movement</h2>
-  <button class="button" onclick="location.href = 'indexFINAL.php?command=takeoff'">Takeoff</button>
-  <button class="button" onclick="location.href = 'indexFINAL.php?command=landing'">Landing</button> 
+  <button class="button" onclick="location.href = 'index.php?command=takeoff'">Takeoff</button>
+  <button class="button" onclick="location.href = 'index.php?command=landing'">Landing</button> 
   
   <br>
 
-  <button class="button" onclick="location.href = 'indexFINAL.php?command=square'">Square Movement</button>
-  <button class="button" onclick="location.href = 'indexFINAL.php?command=vertical'">Vertical Movement</button>
+  <button class="button" onclick="location.href = 'index.php?command=square'">Square Movement</button>
+  <button class="button" onclick="location.href = 'index.php?command=vertical'">Vertical Movement</button>
 
   <br>
 
-  <button class="button" onclick="location.href = 'indexFINAL.php?command=left'">Left</button>
-  <button class="button" onclick="location.href = 'indexFINAL.php?command=right'">Right</button>
+  <button class="button" onclick="location.href = 'index.php?command=left'">Left</button>
+  <button class="button" onclick="location.href = 'index.php?command=right'">Right</button>
 
   <br> 
 
-  <button class="button" onclick="location.href = 'indexFINAL.php?command=front'">Front</button>
-  <button class="button" onclick="location.href = 'indexFINAL.php?command=back'">Back</button>
+  <button class="button" onclick="location.href = 'index.php?command=front'">Front</button>
+  <button class="button" onclick="location.href = 'index.php?command=back'">Back</button>
 
   <br>
 
-  <button class="button" onclick="location.href = 'indexFINAL.php?command=waypoint'">Waypoint</button>
+  <button class="button" onclick="location.href = 'index.php?command=waypoint'">Waypoint</button>
 
 
 
