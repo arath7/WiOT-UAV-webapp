@@ -53,19 +53,27 @@ body {
     border-radius: 0 0 5px 5px;
 }
 
+#space {
+  padding: 0px;
+  padding-left:  0px;
+  padding-right: 15px;
+  background-color: #ffffff;
+  border-radius: 0 0 5px 5px;
+  color: white;
+
+}
+
+
 h1 {
-    text-align: center;  
     font-family: Georgia, serif;
     border-bottom: 3px solid white;
     color: #272522;
     font-size: 50px;
 
     display: flex;
-    justify-content: center;
-    
-    align-items: center;
+    justify-content: left;
+    align-items: left; 
     height: 200px;
-
 }
 
 buttonArm {
@@ -119,8 +127,8 @@ h2 {
     font-size: 50px;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left; 
     height: 200px;
 
 }
