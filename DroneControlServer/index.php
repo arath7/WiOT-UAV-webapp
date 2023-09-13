@@ -53,7 +53,7 @@
 
 <head>
     <div class="header">
-        <h1>Arducopter Drone Control</h1>
+        <h1>Arducopter Controls</h1>
         <p> Institute for the Wireless Internet of Things </p>
         <link rel="stylesheet" href="site.css">
 
@@ -62,7 +62,7 @@
 
     <div class="navigation">
       <u1>
-        <l1><a href="./index.php">Controls</a></li>
+        <li><a href="./index.php">Controls</a></li>
         <li><a href="./instructions.html">Instructions</a></li>
         <li><a href="./repo.html">Repository</a></li>
       </u1>
@@ -76,6 +76,9 @@
 <body>
 
   <div id="main">
+
+
+
   <h1>Status</h1>
 
   <StatusButtons><buttonArm> <button class="button" onclick="location.href = 'index.php?command=arm'">Arming</button></buttonArm>
