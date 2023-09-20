@@ -67,7 +67,6 @@
         <li><a href="./repo.html">Repository</a></li>
       </u1>
     </div>
-    
   <link href="site.css" rel="stylesheet">
 </head>
 
@@ -76,16 +75,11 @@
 <body>
 
   <div id="main">
+    <hStatus>Status</hStatus>
+    <h1>Status</h1>
 
-
-
-  <h1>Status</h1>
-
-  <StatusButtons><buttonArm> <button class="button" onclick="location.href = 'index.php?command=arm'">Arming</button></buttonArm>
-  <buttonDisarm><button class="button" onclick="location.href = 'index.php?command=disarm'">Disarming</button></buttonDisarm></StatusButtons>
-
-
-
+    <StatusButtons><buttonArm> <button class="button" onclick="location.href = 'index.php?command=arm'">Arming</button></buttonArm>
+    <buttonDisarm><button class="button" onclick="location.href = 'index.php?command=disarm'">Disarming</button></buttonDisarm></StatusButtons>
 
 
   <h2>Movement</h2>
