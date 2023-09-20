@@ -76,20 +76,6 @@ h1 {
     height: 200px;
 }
 
-buttonArm {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    width: 300px;
-  }
-
   alt {
 
     background-color: blue; /* Blue */
@@ -106,20 +92,6 @@ buttonArm {
 
   }
 
-  buttonDisarm {
-    background-color: red; /* Red */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    width: 300px;
-  }
-
 h2 {
     font-family: Georgia, serif;
     border-bottom: 3px solid white;
@@ -131,4 +103,20 @@ h2 {
     align-items: left; 
     height: 200px;
 
+}
+web1 {
+  font-family: Georgia, serif;
+  opacity: 0;
+  font-size: 50px;
+
+  display: flex;
+  justify-content: left;
+  align-items: left; 
+  height: 200px;
+}
+hUAV {
+  opacity: 0;
+}
+hStatus {
+  opacity: 0;
 }
