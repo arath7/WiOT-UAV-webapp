@@ -1,17 +1,32 @@
-.header {
-    padding: 80px; /* some padding */
-    text-align: center; /* center the text */
+.mainheader {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
     background: #bc1a1a; /* red background */
-    color: white; /* white text color */
   }
 
- /* increase the font size of the header */
-
- .header h1 {
-    font-size: 100px;
+ .mainheader h1 { /*"Arducopter Controls" title formatting*/
+    font-size: 60px;
+    font-style: normal;
+    font-family: Tahoma, sans-serif;
+    color:#340f0f;
  }
 
- .navigation u1 {
+ .mainheader h2 { /*Institute for the Wireless Internet of Things*/
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif, serif;
+  font-style: italic;
+  color:rgb(75, 13, 13);
+ }
+
+ .navigationbar { /*navigation bar (controls, instructions, repository)*/
+  text-align: center;
+
+  
+ }
+
+ .navigationbar u1 {
+  font-size: medium;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -19,11 +34,11 @@
   background-color: #631a1a;
  }
  
- .navigation li {
-  float: left;
+ .navigationbar li {
+  float:right;
 }
 
-.navigation li a {
+.navigationbar li a {
   display: block;
   color: rgb(75, 13, 13);
   text-align: center;
@@ -31,11 +46,10 @@
   text-decoration: none;
 }
 
-.navigation li a:hover {
-  background-color: #634747;
+.navigationbar li a:hover {
+  background-color: #911d1d;
+  color:rgb(255, 255, 255)
 }
-
-
 
 body {
     font-family: "Trebuchet MS", Verdana, sans-serif;
@@ -43,6 +57,10 @@ body {
     background-color: whitesmoke;
     color: #696969;
     padding: 3px;
+}
+
+.repopage body header {
+  color:aqua;
 }
 
 #main {
@@ -66,11 +84,10 @@ body {
 
 h1 {
     font-family: Georgia, serif;
-    border-bottom: 3px solid white;
     color: #272522;
     font-size: 50px;
 
-    display: flex;
+    /*display: flex;*/
     justify-content: left;
     align-items: left; 
     height: 200px;
@@ -84,7 +101,7 @@ h1 {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
     font-size: 16px;
@@ -94,11 +111,10 @@ h1 {
 
 h2 {
     font-family: Georgia, serif;
-    border-bottom: 3px solid white;
     color: #272522;
     font-size: 50px;
 
-    display: flex;
+    /*display: flex;*/
     justify-content: left;
     align-items: left; 
     height: 200px;
@@ -109,7 +125,7 @@ web1 {
   opacity: 0;
   font-size: 50px;
 
-  display: flex;
+  /*display: flex;*/
   justify-content: left;
   align-items: left; 
   height: 200px;

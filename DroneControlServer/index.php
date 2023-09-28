@@ -52,15 +52,13 @@
 ?>
 
 <head>
-    <div class="header">
+    <div class="mainheader">
         <h1>Arducopter Controls</h1>
-        <p> Institute for the Wireless Internet of Things </p>
+        <h2> Institute for the Wireless Internet of Things </h2>
         <link rel="stylesheet" href="site.css">
-
-
     </div>
 
-    <div class="navigation">
+    <div class="navigationbar">
       <u1>
         <li><a href="./index.php">Controls</a></li>
         <li><a href="./instructions.html">Instructions</a></li>
@@ -69,8 +67,6 @@
     </div>
   <link href="site.css" rel="stylesheet">
 </head>
-
-
 
 <body>
 
@@ -82,33 +78,25 @@
     <buttonDisarm><button class="button" onclick="location.href = 'index.php?command=disarm'">Disarming</button></buttonDisarm></StatusButtons>
 
 
-  <h2>Movement</h2>
-  <button class="button" onclick="location.href = 'index.php?command=takeoff'">Takeoff</button>
-  <button class="button" onclick="location.href = 'index.php?command=landing'">Landing</button> 
+    <h2>Movement</h2>
+    <button class="button" onclick="location.href = 'index.php?command=takeoff'">Takeoff</button>
+    <button class="button" onclick="location.href = 'index.php?command=landing'">Landing</button> 
+    
+    <br>
+    <button class="button" onclick="location.href = 'index.php?command=square'">Square Movement</button>
+    <button class="button" onclick="location.href = 'index.php?command=vertical'">Vertical Movement</button>
+    
+    <br>
+    <button class="button" onclick="location.href = 'index.php?command=left'">Left</button>    
+    <button class="button" onclick="location.href = 'index.php?command=right'">Right</button>
   
-  <br>
+    <br> 
+    <button class="button" onclick="location.href = 'index.php?command=front'">Front</button>
+    <button class="button" onclick="location.href = 'index.php?command=back'">Back</button>
 
-  <button class="button" onclick="location.href = 'index.php?command=square'">Square Movement</button>
-  <button class="button" onclick="location.href = 'index.php?command=vertical'">Vertical Movement</button>
-
-  <br>
-
-  <button class="button" onclick="location.href = 'index.php?command=left'">Left</button>
-  <button class="button" onclick="location.href = 'index.php?command=right'">Right</button>
-
-  <br> 
-
-  <button class="button" onclick="location.href = 'index.php?command=front'">Front</button>
-  <button class="button" onclick="location.href = 'index.php?command=back'">Back</button>
-
-  <br>
-
-  <button class="button" onclick="location.href = 'index.php?command=waypoint'">Waypoint</button>
-
-
+    <br>
+    <button class="button" onclick="location.href = 'index.php?command=waypoint'">Waypoint</button>
 
   </div>
-
 </body>
-
 </html>
