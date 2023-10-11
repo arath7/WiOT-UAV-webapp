@@ -70,33 +70,52 @@
 
 <body>
 
-  <div id="main">
-    <hStatus>Status</hStatus>
+  <div class="statusheading">
     <h1>Status</h1>
+  </div>
 
-    <StatusButtons><buttonArm> <button class="button" onclick="location.href = 'index.php?command=arm'">Arming</button></buttonArm>
-    <buttonDisarm><button class="button" onclick="location.href = 'index.php?command=disarm'">Disarming</button></buttonDisarm></StatusButtons>
+  <div class="statusbuttons">
+  <button class="button" onclick="location.href = 'index.php?command=arm'">Arming</button>
+  <button class="button" onclick="location.href = 'index.php?command=disarm'">Disarming</button>
+  </div>
 
+  <br>
 
-    <h2>Movement</h2>
+  <div class="movementheading">
+    <h1>Movement</h1>
+  </div>
+
+  <div class="movementbuttons">
     <button class="button" onclick="location.href = 'index.php?command=takeoff'">Takeoff</button>
     <button class="button" onclick="location.href = 'index.php?command=landing'">Landing</button> 
     
     <br>
+    <br>
+
     <button class="button" onclick="location.href = 'index.php?command=square'">Square Movement</button>
     <button class="button" onclick="location.href = 'index.php?command=vertical'">Vertical Movement</button>
     
     <br>
+    <br>
+
     <button class="button" onclick="location.href = 'index.php?command=left'">Left</button>    
     <button class="button" onclick="location.href = 'index.php?command=right'">Right</button>
   
     <br> 
+    <br>
+
     <button class="button" onclick="location.href = 'index.php?command=front'">Front</button>
     <button class="button" onclick="location.href = 'index.php?command=back'">Back</button>
 
     <br>
-    <button class="button" onclick="location.href = 'index.php?command=waypoint'">Waypoint</button>
+    <br>
 
+    <button class="button" onclick="location.href = 'index.php?command=waypoint'">Waypoint</button>
   </div>
+
+
+
+
+
 </body>
 </html>
