@@ -3,25 +3,32 @@
     margin: auto;
     text-align: center;
     background: #bc1a1a; /* red background */
+    height: 300px;
   }
 
  .mainheader h1 { /*"Arducopter Controls" title formatting*/
-    font-size: 60px;
+    font-size: 90px;
     font-style: normal;
     font-family: Tahoma, sans-serif;
     color:#340f0f;
+    margin-top: 100px;
+    margin-bottom: 0px;
+
  }
 
  .mainheader h2 { /*Institute for the Wireless Internet of Things*/
-  font-size: 20px;
+  font-size: 30px;
   font-family:Verdana, Geneva, Tahoma, sans-serif, serif;
   font-style: italic;
   color:rgb(75, 13, 13);
+  margin-top: -70px;
+  margin-bottom: 0px;
+
+  
  }
 
  .navigationbar { /*navigation bar (controls, instructions, repository)*/
   text-align: center;
-
   
  }
 
@@ -59,9 +66,6 @@ body {
     padding: 3px;
 }
 
-.repopage body header {
-  color:aqua;
-}
 
 #main {
     padding: 5px;
@@ -87,7 +91,6 @@ h1 {
     color: #272522;
     font-size: 50px;
 
-    /*display: flex;*/
     justify-content: left;
     align-items: left; 
     height: 200px;
@@ -101,7 +104,7 @@ h1 {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    /*display: flex;*/
+
     justify-content: center;
     align-items: center;
     font-size: 16px;
@@ -114,7 +117,6 @@ h2 {
     color: #272522;
     font-size: 50px;
 
-    /*display: flex;*/
     justify-content: left;
     align-items: left; 
     height: 200px;
@@ -125,14 +127,198 @@ web1 {
   opacity: 0;
   font-size: 50px;
 
-  /*display: flex;*/
   justify-content: left;
   align-items: left; 
   height: 200px;
 }
-hUAV {
-  opacity: 0;
+
+.instructionsheading h4 {
+  font-family: Georgia, serif;
+  color: #100c06;
+  font-size: 50px;
+
+  justify-content: left;
+  align-items: left; 
+  height: 200px;
+  margin: 15px;
+  margin-bottom: 0px;
+  margin-top: 50px;
 }
-hStatus {
-  opacity: 0;
+
+.instructionscontent {
+  margin-top: 0;
+  color: #561a04;
+  font-size: 20px;
+  justify-content: left;    
+  align-items: left; 
+  height: 20px;
+  margin-top: -100px;
+  line-height: 50px;
 }
+
+.repopage h1 {
+  font-family: Georgia, serif;
+  color: #100c06;
+  font-size: 50px;
+
+  justify-content: left;
+  align-items: left; 
+  height: 200px;
+  margin: 15px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+.repobutton {
+  margin-left: 50px;
+  margin-top: -100px;
+}
+
+
+.repobutton button {
+
+  background-image: linear-gradient(92.88deg, #b54561 9.16%, #cc4343 43.89%, #b54561 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.repobutton button:hover {
+  box-shadow: rgba(176, 72, 72, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .repobutton button {
+    padding: 0 2.6rem;
+  }
+}
+
+
+.statusheading h1 {
+  font-family: Georgia, serif;
+  color: #100c06;
+  font-size: 50px;
+
+  justify-content: left;
+  align-items: left; 
+  height: 200px;
+  margin: 15px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+
+}
+
+
+.statusbuttons button {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.statusbuttons button:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .statusbuttons button {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+
+.statusbuttons {
+  margin-left: 50px;
+  margin-top: -100px;
+}
+
+
+.movementheading h1 {
+  font-family: Georgia, serif;
+  color: #100c06;
+  font-size: 50px;
+
+  justify-content: left;
+  align-items: left; 
+  height: 200px;
+  margin: 15px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+
+
+.movementbuttons {
+  margin-left: 50px;
+  margin-top: -100px;
+}
+
+
+.movementbuttons button {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.movementbuttons button:hover {
+  background-color: #fff;
+}
+
+.movementbuttons button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .movementbuttons button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+
